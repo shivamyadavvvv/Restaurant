@@ -5,19 +5,19 @@
                 "id": 1,
                 "image": "./quality_food.svg",
                 "title": "QUALITY FOOD",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Fresh ingredients crafted daily to ensure delicious, hygienic, flavorful meals you can trust." 
             },
             {
                 "id": 2,
                 "image": "./super_taste.svg",
                 "title": "SUPER TASTE",
-                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing sit amet elit. Sit voluptates quaerat pariatur." 
+                "description": "Bold flavors and rich aromas combine to deliver an unforgettable super taste experience every time." 
             },
             {
                 "id": 3,
                 "image": "./fast_delivery.svg",
                 "title": "FAST DELIVERY",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Lightning fast delivery ensures your hot, fresh meals reach you quickly, every time." 
             }
         ],
         "dishes": [
@@ -86,7 +86,7 @@
             {
                 "id": 3,
                 "image": "./team_member_3.png",
-                "name": "JHON DOE",
+                "name": "JOHN DOE",
                 "designation": "Fast Food Chef"
             },
             {

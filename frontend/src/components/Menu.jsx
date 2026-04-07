@@ -7,7 +7,7 @@ const Menu = () => {
       <div className="container">
         <div className="heading_section">
           <h1 className="heading">POPULAR DISHES</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, iusto dolorem! Voluptatibus ipsum nam mollitia architecto. Soluta pariatur eius et recusandae veritatis. Quasi, et molestias!</p>
+          <p>Our popular dishes feature customer favorites made with rich flavors, fresh ingredients, and expert preparation, offering a delicious variety that keeps guests coming back.</p>
         </div>
         <div className="dishes_container">
           {restApiData.data[0].dishes.map(element => (
