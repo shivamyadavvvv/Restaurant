@@ -5,8 +5,9 @@ import { dbConnection } from "./database/dbConnection.js";
 import { errorMiddleware } from "./error/error.js";
 import reservationRouter from "./routes/reservationRoute.js";
 
+dotenv.config({ path: "./config/config.env" }); // ← moved to top
+
 const app = express();
-dotenv.config({ path: "./config/config.env" });
 
 app.use(
   cors({
@@ -23,6 +24,6 @@ app.use("/api/v1/reservation", reservationRouter);
 
 dbConnection();
 
-app.use(errorMiddleware)
+app.use(errorMiddleware);
 
 export default app;
