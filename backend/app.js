@@ -10,9 +10,9 @@ dotenv.config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: ["https://restaurant-one-beryl-78.vercel.app"],
+    origin: "*",
     methods: ["POST"],
-    credentials: true,
+    credentials: false,
   })
 );
 
