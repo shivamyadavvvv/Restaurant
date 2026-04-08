@@ -5,7 +5,9 @@ import { dbConnection } from "./database/dbConnection.js";
 import { errorMiddleware } from "./error/error.js";
 import reservationRouter from "./routes/reservationRoute.js";
 
-dotenv.config({ path: "./config/config.env" }); // ← moved to top
+if (process.env.NODE_ENV !== "production") {
+  dotenv.config({ path: "./config/config.env" });
+}
 
 const app = express();
 
